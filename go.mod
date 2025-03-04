@@ -265,6 +265,11 @@ require (
 	mvdan.cc/unparam v0.0.0-20220706161116-678bad134442 // indirect
 )
 
-replace github.com/ethereum/go-ethereum => github.com/zenanet-network/go-zenanet v0.1.0
-
-replace github.com/tendermint/tm-db => github.com/tendermint/tm-db v0.2.0
+replace (
+	github.com/ethereum/go-ethereum => github.com/zenanet-network/go-zenanet v0.1.0
+	github.com/tendermint/tendermint => github.com/zenanet-network/tendermint v0.1.0-beta
+	github.com/cosmos/cosmos-sdk => github.com/zenanet-network/cosmos-sdk v0.1.0
+	go.mongodb.org/mongo-driver => go.mongodb.org/mongo-driver v1.14.0
+	github.com/tendermint/tm-db => github.com/tendermint/tm-db v0.2.0
+	github.com/libp2p/go-buffer-pool => github.com/libp2p/go-buffer-pool v0.1.0
+) 

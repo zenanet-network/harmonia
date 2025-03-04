@@ -5,8 +5,8 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/zenanet-network/harmonia/eirene/client/rest"
-	"github.com/zenanet-network/harmonia/eirene/types"
+	"github.com/zenanet-network/harmonia/eirene/client/rest"
+	"github.com/zenanet-network/harmonia/eirene/types"
 	"github.com/zenanet-network/harmonia/helper"
 	hmTypes "github.com/zenanet-network/harmonia/types"
 )
